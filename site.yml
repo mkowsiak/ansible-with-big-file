@@ -1,0 +1,6 @@
+---
+- hosts: centos
+  remote_user: centos
+  become: true
+  roles:
+    - big-file

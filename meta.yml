@@ -1,0 +1,10 @@
+galaxy_info:
+  author: Michal Konrad Owsiak <michal@owsiak.org>
+  description: This is an app that fails during build due to time out
+  company: www.owsiak.org
+
+  license: license (GPLv2, CC-BY, etc)
+
+  min_ansible_container_version: 0.9.2
+
+  tags: []

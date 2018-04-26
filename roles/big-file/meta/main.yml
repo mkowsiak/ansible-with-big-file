@@ -1,0 +1,12 @@
+galaxy_info:
+  author: Michal Konrad Owsiak <michal@owsiak.org>
+  description: Build image that makes Ansible fail with time out
+  company: www.owsiak.org
+
+  license: license (GPLv2, CC-BY, etc)
+
+  min_ansible_version: 1.2
+
+  galaxy_tags: []
+
+dependencies: []

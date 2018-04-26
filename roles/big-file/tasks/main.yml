@@ -1,0 +1,5 @@
+---
+
+- name: create super big file
+  shell: 'truncate -s 1G /root/bigfile'
+
