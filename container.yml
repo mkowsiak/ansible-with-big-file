@@ -2,15 +2,12 @@ version: "2"
 settings:
   conductor:
     base: centos:7
-  
   project_name: big-file
 
-  services:
-    big-file:
-      from: "centos:7"
-      roles:
-        - big-file
-      entrypoint: '/bin/bash'
-      command: ['/bin/echo', 'Hello']
+services:
+  big-file:
+    from: centos:7
+    roles:
+      - big-file
 
 registries: {}
